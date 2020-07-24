@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小小记事本</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/todolist.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jishiben.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="jishiben">
+			<div class="header">
+				<div class="icon">
+					小小记事本
+				</div>
+				<input type="text" class="innerword" placeholder="请输入事件"/>
+			</div>
+			<div class="wantdo">
+				<div class="mianshu">
+					<div class="description">待办事项</div>
+					<div class="count"></div>
+				</div>
+				<div class="dolist">
+				</div>
+			</div>
+			<div class="done">
+				<div class="mianshu">
+					<div class="description">完成事项</div>
+					<div class="count"></div>
+				</div>
+				<div class="donelist">
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		setrem()
+		jishiben()	
+	</script>
+</html>

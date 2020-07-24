@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	background-color: rgba(200,200,200,1);
+}
+
+.jishiben .header{
+	height: 0.5rem;
+	width: 3.75rem;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.2rem;
+	
+}
+
+.header .icon{
+	width: 1rem;
+	color: rgba(225,225,225,1);
+	font-size: 0.16rem;
+	font-weight: 800;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.header .innerword{
+	width: 2.4rem;
+	height: 0.26rem;
+	border: none;
+	outline: none;
+	border-radius: 0.04rem;
+	margin: auto 0.08rem;
+	font-size: 0.14rem;
+	padding: 0 0.06rem;
+}
+
+.jishiben .wantdo{
+	width: 3.75rem;
+	
+	margin-bottom: 0.12rem;
+}
+.wantdo .mianshu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.16rem;
+}
+
+.wantdo .mianshu .description {
+	font-size: 0.24rem;
+	font-weight: 800;
+	line-height: 0.32rem;
+	margin: 0 0.08rem;
+}
+.wantdo .mianshu .count {
+	font-size: 0.16rem;
+	font-weight: 800;
+	color: white;
+	margin: 0 0.14rem;
+	background-color: #808080;
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 0.1rem;
+	line-height: 0.2rem;
+	text-align: center;
+}
+
+
+.jishiben .done{
+	width: 3.75rem;
+	
+	margin-bottom: 0.12rem;
+}
+.done .mianshu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.16rem;
+}
+
+.done .mianshu .description {
+	font-size: 0.24rem;
+	font-weight: 800;
+	line-height: 0.32rem;
+	margin: 0 0.08rem;
+}
+.done .mianshu .count {
+	font-size: 0.16rem;
+	font-weight: 800;
+	color: white;
+	margin: 0 0.14rem;
+	background-color: #808080;
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 0.1rem;
+	line-height: 0.2rem;
+	text-align: center;
+}
+
+
+.dolist .thing{
+	width: 3.4rem;
+	background-color: white;
+	margin: 0 auto;
+	font-size: 0.16rem;
+	display: flex;
+	height: 0.32rem;
+	margin-bottom: 0.08rem;
+	border-radius: 0.04rem;
+	overflow: hidden;
+}
+
+.dolist .thing::before{
+	width: 0.04rem;
+	height: 0.32rem;
+	background-color: deepskyblue;
+	content: '';
+	
+}
+
+.dolist .thing .docheckbox{
+	width: 0.22rem;
+	height: 0.22rem;
+	flex: 1;
+	margin: auto;
+}
+.dolist .thing .content{
+	line-height: 0.32rem;
+	text-align: left;
+	flex: 5;
+
+}
+.dolist .thing .del{
+	line-height: 0.32rem;
+	margin-right: 0.04rem;
+	text-align: right;
+	flex: 2;
+	color: crimson;
+}
+
+.done .thing{
+	width: 3.4rem;
+	background-color: white;
+	margin: 0 auto;
+	font-size: 0.16rem;
+	display: flex;
+	height: 0.32rem;
+	margin-bottom: 0.08rem;
+	border-radius: 0.04rem;
+	overflow: hidden;
+	-webkit-filter: brightness(0.9);
+}
+
+.done .thing::before{
+	width: 0.04rem;
+	height: 0.32rem;
+	background-color: greenyellow;
+	content: '';
+	
+}
+
+.done .thing .donecheckbox{
+	width: 0.22rem;
+	height: 0.22rem;
+	flex: 1;
+	margin: auto;
+}
+.done .thing .content{
+	line-height: 0.32rem;
+	text-align: left;
+	flex: 5;
+
+}
+.done .thing .del{
+	line-height: 0.32rem;
+	text-align: right;
+	flex: 2;
+	margin-right: 0.04rem;
+	color: crimson;
+}
